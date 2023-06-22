@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text controller</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500&family=Josefin+Sans&family=Kablammo&family=Roboto+Condensed&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class=" bg-secondary">
+    <div class="container">
+        <div class=" "><p id="output">Output</p></div>
+        <div style="bottom: 30px; left: 0; right: 0; max-width: 500px;">
+            <div class=" border border-primary w-75 p-5 m-auto position-fixed bottom-0">
+                <div class=" d-flex justify-content-between">
+                    <p>Say Something</p>
+                    <p>Count: <span id="count">0</span></p>
+                </div>
+                <div>
+                    <textarea name="" id="input" cols="1" rows="3" class=" form-control"></textarea>
+                </div>
+                <div class="row mt-4 justify-content-center align-items-center">
+                    <div class="col">
+                        <label for="fontfamily" class=" form-label">Font Family</label>
+                        <select class=" form-select" id="fontfamily">
+                            <option value="">Select one</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="color" class=" form-label">Select Color</label>
+                        <input id="color" type="color" class=" form-control form-color-control" id="color">
+    
+                    </div>
+                    <div class="col">
+                        <label for="range">Fontsize</label>
+                        <input type="range" id="fontsize" min="16" max="100" class="form-range">
+                        
+                    </div>
+        
+    
+                   
+                </div>
+    
+    
+            </div>
+        </div>
+       
+    </div>
+    <script src="tc.js"></script>
+</body>
+
+</html>

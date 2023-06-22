@@ -1,0 +1,1 @@
+@import"../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";@import"../node_modules/bootstrap/dist/css/bootstrap.min.css";.del-btn{transform:scale(0);transition:.5s}.list:hover .del-btn{transform:scale(1)}
